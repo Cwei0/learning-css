@@ -1,0 +1,48 @@
+.but{
+    padding: 10px 9px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.pag{
+    padding: 8px 4px;
+}
+.strech{
+    margin: 20px 3px;
+    border: none;
+    padding: 10px 16px;
+    background-color: rgb(7, 149, 7);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.strech:hover{
+    padding: 20px 32px;
+    opacity: 0.7;
+}
+.sha{
+    margin-bottom: 20px;
+    margin-left: 3px;
+    padding: 10px 16px;
+    border: none;
+    color: white;
+    background-color: rgb(7, 149, 7);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sha:active{
+    box-shadow: 0px 0px 0px;
+    opacity: 0.8;
+}
+.k{
+    margin: 8px 6px;
+    padding: 10px 16px;
+    border: none;
+    color: white;
+    background-color: rgb(7, 149, 7);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.k:hover{
+    padding: 10px 20px;
+}
