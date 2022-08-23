@@ -1,0 +1,12 @@
+.c{
+    font-family: Arial;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(205, 203, 203);
+    width: 300px;
+    height: 90px;
+    vertical-align: middle;
+}
+.cc{
+    margin-left: 20px;
+}

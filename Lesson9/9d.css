@@ -1,0 +1,19 @@
+div{
+    width: 360px;
+    background-color: rgb(33, 33, 33);
+    padding: 20px 15px;
+}
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer{
+    color: rgb(160, 160, 160);
+}
