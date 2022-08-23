@@ -1,0 +1,23 @@
+.email{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 190px;
+}
+input{
+    padding: 12px 15px;
+    border-radius: 6px;
+    border-color: rgb(224, 221, 221);
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+}
+button{
+    padding: 12px 148px;
+    border: none;
+    background-color: rgb(18, 94, 201);
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+}
