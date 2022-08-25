@@ -1,0 +1,38 @@
+.card{
+    width: 370px;
+    box-shadow: 0 1px 5px rgba(96, 96, 96, 0.2);
+}
+.profile-photo{
+    border-radius: 50px;
+    width: 40px;
+    vertical-align: middle;
+}
+.contacts{
+    width: 200px;
+    margin-left: 5px;
+}
+.follow{
+   color: white;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   padding: 10px 15px;
+   background-color: rgb(48, 141, 235);
+}
+.name{
+    color: black;
+    font-weight: 600;
+}
+p,
+button{
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
