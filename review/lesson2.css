@@ -1,0 +1,103 @@
+.uber{
+    margin-bottom: 8px;
+    padding: 14px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+.uber:hover{
+    opacity: 0.7;
+}
+.amazon{
+    margin-bottom: 10px;
+    padding: 1px 6px;
+    border: none;
+    border-radius: 17px;
+    color: black;
+    background-color: rgb(238, 215, 97);
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.amazon:hover{
+    background-color: rgb(205, 181, 60);
+}
+.github{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    padding: 14px 25px;
+    color: white;
+    background-color: rgb(72, 174, 101);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.github:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.boot{
+    margin-top: 8px;
+    margin-right: 9px;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(140, 105, 192);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.6s;
+}
+.boot:hover{
+    background-color:rgb(102, 71, 148);
+}
+.strap{
+    padding: 14px 25px;
+    background-color: white;
+    color: rgb(108, 117, 125);
+    font-weight: bold;
+    border-style: solid;
+    border-width: 0.7px;
+    border-radius: 3px;
+    border-color: rgb(108, 117, 125);
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+.strap:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+.linked{
+    margin-top: 8px;
+    margin-right: 6px;
+    padding: 15px 27px;
+    color: white;
+    background-color: rgb(10, 102, 194);
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.linked:hover{
+    background-color: rgb(12, 84, 157);
+}
+.in{
+    padding: 14px 25px;
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 18px;
+    border-color: rgb(10, 102, 194);
+    cursor: pointer;
+    transition: background-color 0.6s, border-width 0.6s;
+}
+.in:hover{
+    background-color: rgb(229, 235, 243);
+    border-width: 1.5px;
+}

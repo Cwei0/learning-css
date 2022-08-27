@@ -1,0 +1,38 @@
+.add{
+    margin-right: 8px;
+    height: 36px;
+    width: 112px;
+    background-color: rgb(230, 207, 89);
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.add:hover{
+    background-color: rgb(203, 181, 70);
+}
+.add:active{
+    opacity: 0.6;
+}
+.buy{
+    height: 36px;
+    width: 112px;
+    background-color: rgb(255, 164, 28);
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.buy:hover{
+    background-color: rgb(200, 126, 14);
+}
+.buy:active{
+    opacity: 0.6;
+}
+.ab{
+   color: rgb(0, 113, 133);
+   cursor: pointer;
+}
+.ab:hover{
+     color: rgb(213, 190, 14);
+}

@@ -1,0 +1,117 @@
+.tah{
+    font-family: Tahoma;
+    font-weight: bolder;
+    font-size: large;
+}
+.b{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.bb{
+    font-style: italic;
+    font-family: Arial;
+    color: red;
+    margin-top: 5px;
+}
+.third{
+    font-family: Verdana;
+}
+.c{
+    font-weight: bolder;
+   margin-bottom: 5px;
+}
+.cc{
+    margin-top: 0;
+    color: rgb(96, 96, 96);
+    width: 130px;
+    font-size: 14px;
+}
+.ccc{
+    width: 300px;
+}
+.cccc{
+    padding: 8px 15px;
+    color: white;
+    background-color: rgb(10, 158, 10);
+    border: none;
+    border-radius: 5px;
+    border-style: none;
+}
+#fourth{
+    font-family: Arial;
+}
+.f{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.ff{
+    text-align: center;
+    font-size: large;
+    margin-bottom: 0;
+}
+.fff{
+    text-align: center;
+    color: blue;
+}
+#fifth{
+    font-family: Arial;
+    text-align: center;
+}
+.e{
+    font-weight: bolder;
+    color: rgb(226, 155, 61);
+    margin-bottom: 0;
+}
+.ee{
+    font-weight: 550;
+    font-size: 30px;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.eee{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.eeee{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.eeeee{
+    border: none;
+    padding: 8px 14px;
+    font-weight: bold;
+    background-color: rgb(9, 146, 244);
+    color: white;
+    border-radius: 20px;
+}
+#sixth{
+    font-family: Arial;
+}
+.d{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.dd{
+    font-size: 20px;
+    color: rgb(96, 96, 96);
+}
+.ddd{
+    color: rgb(10, 158, 10);
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.dddd{
+    font-size: 20px;
+    color: rgb(96, 96, 96);
+    margin-top: 10px;
+}
+.ddddd{
+    color: rgb(237, 23, 23);
+}
