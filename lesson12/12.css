@@ -1,0 +1,26 @@
+.a, .b, .c, .d{
+    margin-bottom: 20px;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.d{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    height: 50px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+}
