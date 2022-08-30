@@ -1,0 +1,63 @@
+body{
+    font-family: Arial;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.container{
+    width: 400px;
+    height: 280px;
+    border: none;
+    padding: 10px 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.email1,.email2,.email3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.sender-picture-container{
+    margin-right: 10px;
+}
+.sender-picture{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.email-content{
+    flex: 1;
+}
+.email-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.sender-name{
+    font-size: 17px;
+    font-weight: bold;
+}
+.send-time{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+.subject{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.message{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
