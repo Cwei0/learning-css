@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.name{
+    font-weight: bold;
+}
+button{
+    padding: 8px 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.add{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    margin-right: 5px;
+}

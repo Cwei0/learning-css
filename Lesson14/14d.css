@@ -1,0 +1,45 @@
+.col{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100px;
+    background-color: lightgreen;
+}
+.overlay{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 500px;
+}
+.modal-title{
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+div{
+    font-family: Arial;
+}
+.content{
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+button{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
