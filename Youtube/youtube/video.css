@@ -1,0 +1,121 @@
+section{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    padding: 20px;
+}
+.video-preview{
+    padding: 4px;
+    vertical-align: top;
+    display: inline-block;
+}
+.video-info-grid{
+     display: grid;
+     grid-template-columns: 50px 1fr;
+}
+.channel-picture{
+    display: inline-block;
+    position: relative;
+}
+.channel-picture img{
+    width: 36px;
+    border-radius: 18px;
+}
+.thumbail{
+    width: 100%;
+    display: block;
+}
+.video-info{
+    display: inline-block;
+    vertical-align: middle;
+}
+.video-title{
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 10 px;
+     margin-top: 0;
+
+}
+.video-stats, .channel-name{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+.channel-name{
+    margin-bottom: 4px;
+}
+.thumbail-row{
+    margin-bottom: 8px;
+    position: relative;
+}
+.video-time{
+     background-color: black;
+     color: white;
+     position: absolute; 
+    bottom: 8px;
+    right: 5px;
+    font-family: 'Roboto',Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+}
+.tooltip1, .tooltip2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    opacity: 0;
+    z-index: 99;
+    transition: opacity 0.6s;
+    pointer-events: none;
+    background-color: white;
+}
+.tooltip1 img, .tooltip2 img{
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 8px;
+}
+.tooltip1 .tip-name, 
+.tooltip2 .tip-name{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+    font-family: 'Roboto', Arial;
+}
+.tooltip1 .Subscribers,
+.tooltip2 .Subscribers{
+    font-size: 14px;
+    color: rgb(130, 130, 130);
+    font-family: 'Roboto', Arial;
+}
+.channel-picture:hover .tooltip1,
+.channel-picture:hover .tooltip2{
+    opacity: 1;
+}
+.channel-link{
+    color: rgb(96, 96, 96);
+}
+@media (max-width: 800px){
+    section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:801px) and(max-width:1299px){
+    section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1300px){
+    section{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

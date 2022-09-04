@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "HTML PRACTICE",
+			"path": "../../L-PROG/Practice/HTML PRACTICE"
+		},
+		{
+			"path": "../../L-PROG/Practice/csscheatsheet"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "supersimpledev"
+	}
+}
